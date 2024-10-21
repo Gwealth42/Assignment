@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    position: relative;
+}
+.logo{
+    color: white;
+} 
+.menuicon{
+    color: #144499;
+    padding-left: 5px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style-type:none ;
+    text-align:center
+}
+nav ul li a{
+    text-decoration: none;
+    color: #144499;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color:green;
+}
+.menubtn{
+    width: 30px;
+    border: 1px solid #144499;
+    border-radius: 5px;
+    padding: 15px;
+    color: #144499;
+}
+.menubtn:hover{
+    background-color: #144499;
+    color:#fff;
+}
+.frontline{
+    border-top: 7px solid  rgb(245, 243, 243);
+    padding: 30px;
+}   
+.bar{
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.barline{
+    width: 30px;
+    height: 30px;
+    background-color:  #144499;
+    border-radius: 50%;
+}
+.bckline{
+    width:230px ;
+    height: 5px;
+    background-color: rgb(245, 243, 243);
+}
+.barline2{
+    width: 30px;
+    height: 30px;
+    background-color:rgb(245, 243, 243);
+    border-radius: 60%;
+}
+.progressbar{
+    display: flex;
+    justify-content: space-between;
+    color: #627081;
+    flex-direction: row;
+    width: 580px;
+    margin: 0 auto;
+    font-size: bold;
+}
+.Account{
+    color:#083E9E;
+    font-size: 32px;
+    flex-direction: column;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.Account2{
+    color: grey;
+    font-size: smaller;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    width:370px;
+    margin: auto;
+}
+.signupcontainer{
+ max-width: 400px;
+text-align:left;
+flex-direction: column;
+align-items: center;
+display: flex;
+background-color: #fff;
+border: 1px dashed #05457b;
+border-radius: 10px;
+padding: 10px;
+}
+form{
+    display: table;
+    align-items:left;
+    justify-content: center;
+    flex-direction: column;
+}
+.row{
+    display: table-row;
+}
+.row label {
+    display: table-cell;
+    padding: 0px;
+}
+.row input{
+    display: table-cell;
+    padding: 0px;
+}
+form.formsection{
+    position: relative;
+    margin-bottom: 1px;
+}
+form.formsection label{
+    font-size:small;
+    display: block;
+    font-weight: 700;
+    text-align:left;
+    color: #627081;
+    margin-top: 10px;
+}
+form.formsection input{
+    color: #444;
+}
+form.formsection input{
+    width:350px;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 1.2em;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #144499;
+}
+#select{
+    width: 350px;
+    height: 50px;
+    color: #444;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #144499;
+}
+.line{
+    border-top: 1px dashed #05457b;
+    margin: 5px;
+}   
+.button{
+    width: 350px;;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #144499;
+    margin-top:5px;
+    background-color: #144499;
+    color:white;
+}
+p{
+    text-align: center;
+}
+p a{
+    text-decoration: none;
+    color: #08c;
+    margin-top: 5px;
+}
+.agree{
+    color: #627081;
+}
+#bigdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.childdiv{
+    color:#627081;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 50px 0;
+    gap: 40px;
+    vertical-align: baseline;
+}
+.imgdiv{
+    gap:20px;
+    display: flex;
+}
+.bolddiv{
+    font-family: 'U8-Bold'sans-serif;
+    line-height: 25px;
+    color:#627081;
+    font-weight: bold;
+}
+#logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.para1{
+    color: #627081;
+    font-size: smaller;
+    font-family:Geneva,verdana,sans-serif;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.para2{
+    color: #627081;
+    font-size: smaller;
+    font-family: Geneva,verdana,sans-serif;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
