@@ -1,10 +1,21 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+ nav ul{
+    display: none;
+ }
+ nav ul li{
+    display: none;
+ }
+ nav ul li a{
+    display: none;
+ }
+ .menubtn{
+    display: none;
+ }
 nav{
     padding: 10px 30px;
     display: flex;
@@ -19,29 +30,6 @@ nav{
 .menuicon{
     color: #144499;
     padding-left: 5px;
-}
-nav ul{
-    display: flex;
-    gap: 20px;
-}
-nav ul li{
-    list-style-type:none ;
-    text-align:center
-}
-nav ul li a{
-    text-decoration: none;
-    color: #144499;
-    font-size: 14px;
-}
-nav ul li a:hover{
-    color:green;
-}
-.menubtn{
-    width: 30px;
-    border: 1px solid #144499;
-    border-radius: 5px;
-    padding: 15px;
-    color: #144499;
 }
 .menubtn:hover{
     background-color: #144499;
@@ -235,5 +223,4 @@ p a{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 

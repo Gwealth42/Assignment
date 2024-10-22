@@ -78,3 +78,35 @@ excess{
     align-items: center;
     width: fit-content;
 }
+    nav ul{
+        display: flex;
+        gap: 20px;
+    }
+    nav ul li{
+        list-style-type:none ;
+        text-align:center
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #144499;
+        font-size: 14px;
+    }
+    nav ul li a:hover{
+        color:green;
+    }
+    .menubtn{
+        width: 30px;
+        border: 1px solid #144499;
+        border-radius: 5px;
+        padding: 15px;
+        color: #144499;
+    }
+    .menubtn:hover{
+        background-color: #144499;
+        color:#fff;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+
