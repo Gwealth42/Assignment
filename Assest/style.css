@@ -97,7 +97,7 @@ nav ul li a:hover{
     font-family: sans-serif;
 }
 .container{
-    width: 28%;
+    width: 27%;
     margin: 0 auto;
 }
 .signupcontainer{
@@ -127,13 +127,14 @@ form.formsection label{
 }
 form.formsection input{
     color: #444;
+    width: 100%;
 }
 form.formsection input{
     width:100%;
     box-sizing: border-box;
     height: 50px;
     font-size: 1.2em;
-    padding: 30px;
+    padding: 15px;
     outline: none;
     border-radius: 5px;
     border: 1px solid #144499;
@@ -223,7 +224,7 @@ p a{
         display: none;
     }
     .container{
-        width:95%;
+        width:90%;
     }
     .signupcontainer{
      width: 100%;
